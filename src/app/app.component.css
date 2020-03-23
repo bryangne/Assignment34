@@ -1,0 +1,36 @@
+mat-card {
+  width: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column-left {
+  flex: 25%;
+  padding: 1em;
+}
+
+.column-right {
+  flex: 75%;
+  padding: 1em;
+}
+
+.under25 {
+  background-color: yellow;
+}
+
+.over25 {
+  background-color: green;
+}

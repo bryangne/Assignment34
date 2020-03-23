@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-accordion multi="true">
+    <mat-expansion-panel *ngFor="let user of users">
+      <mat-expansion-panel-header>
+        {{ user.name }}
+      </mat-expansion-panel-header>
+      <p>Email: {{ user.email }}</p>
+      <p>Age: {{ user.age }}</p>
+      <mat-action-row>
+        <button mat-button color="primary">Edit</button>
+        <button mat-button color="warn">Delete</button>
+      </mat-action-row>
+    </mat-expansion-panel>
+  </mat-accordion>
+</mat-card>
